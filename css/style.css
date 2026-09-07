@@ -251,7 +251,7 @@ ul { padding: 0; margin: 0; list-style: none; }
 }
 .stats-grid {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   gap: 24px;
   padding: 40px 24px;
   text-align: center;
@@ -556,7 +556,6 @@ ul { padding: 0; margin: 0; list-style: none; }
   .video-grid { grid-template-columns: 1fr; }
   .kvalita-grid, .kontakt-grid { grid-template-columns: 1fr; }
   .contact-cards { grid-template-columns: 1fr; }
-  .stats-grid { grid-template-columns: repeat(2, 1fr); }
 
   .main-nav.open {
     display: flex;

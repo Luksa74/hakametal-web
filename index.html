@@ -27,6 +27,7 @@
       <a href="#sluzby" data-i18n="nav.sluzby">Služby</a>
       <a href="#vybaveni" data-i18n="nav.vybaveni">Vybavení</a>
       <a href="#video" data-i18n="nav.video">Video</a>
+      <a href="#galerie" data-i18n="nav.galerie">Galerie</a>
       <a href="#kvalita" data-i18n="nav.kvalita">Kvalita</a>
       <a href="#reference" data-i18n="nav.reference">Reference</a>
       <a href="#kontakt" data-i18n="nav.kontakt">Kontakt</a>
@@ -216,6 +217,47 @@
     </div>
   </section>
 
+  <section class="section section-alt" id="galerie">
+    <div class="wrap">
+      <div class="section-head">
+        <p class="eyebrow" data-i18n="gallery.eyebrow">Z dílny</p>
+        <h2 data-i18n="gallery.title">Galerie</h2>
+        <p class="section-lead" data-i18n="gallery.lead">Ruční svařování a hotové výrobky přímo z naší výroby.</p>
+      </div>
+
+      <div class="gallery-grid">
+        <button type="button" class="gallery-item" data-index="0">
+          <img src="img/gallery/gallery-01.jpg" data-i18n-attr="alt" data-i18n="gallery.alt1" alt="Ruční svařování — jiskry při obloukovém svařování" loading="lazy">
+        </button>
+        <button type="button" class="gallery-item" data-index="1">
+          <img src="img/gallery/gallery-02.jpg" data-i18n-attr="alt" data-i18n="gallery.alt2" alt="Ruční svařování — detail svařovacího oblouku" loading="lazy">
+        </button>
+        <button type="button" class="gallery-item" data-index="2">
+          <img src="img/gallery/gallery-03.jpg" data-i18n-attr="alt" data-i18n="gallery.alt3" alt="Ruční svařování — příprava svaru na velkém dílu" loading="lazy">
+        </button>
+        <button type="button" class="gallery-item" data-index="3">
+          <img src="img/gallery/gallery-04.jpg" data-i18n-attr="alt" data-i18n="gallery.alt4" alt="Ruční svařování — svařenec na pracovním stole" loading="lazy">
+        </button>
+        <button type="button" class="gallery-item" data-index="4">
+          <img src="img/gallery/gallery-05.jpg" data-i18n-attr="alt" data-i18n="gallery.alt5" alt="Hotové svařence — ramena pro těžkou techniku" loading="lazy">
+        </button>
+        <button type="button" class="gallery-item" data-index="5">
+          <img src="img/gallery/gallery-06.jpg" data-i18n-attr="alt" data-i18n="gallery.alt6" alt="Hotový výrobek — svařený kotel připravený k expedici" loading="lazy">
+        </button>
+        <button type="button" class="gallery-item" data-index="6">
+          <img src="img/gallery/gallery-07.jpg" data-i18n-attr="alt" data-i18n="gallery.alt7" alt="Hotový výrobek — kotel, pohled z boku" loading="lazy">
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <div class="lightbox" id="lightbox" hidden>
+    <button type="button" class="lightbox-close" id="lightbox-close" data-i18n-attr="aria-label" data-i18n="gallery.close" aria-label="Zavřít">&times;</button>
+    <button type="button" class="lightbox-nav lightbox-prev" id="lightbox-prev" data-i18n-attr="aria-label" data-i18n="gallery.prev" aria-label="Předchozí">&#8249;</button>
+    <img class="lightbox-img" id="lightbox-img" src="" alt="">
+    <button type="button" class="lightbox-nav lightbox-next" id="lightbox-next" data-i18n-attr="aria-label" data-i18n="gallery.next" aria-label="Další">&#8250;</button>
+  </div>
+
   <section class="section section-alt" id="kvalita">
     <div class="wrap kvalita-grid">
       <div>
@@ -334,5 +376,6 @@
 
 <script src="js/i18n.js"></script>
 <script src="js/script.js"></script>
+<script src="js/gallery.js"></script>
 </body>
 </html>

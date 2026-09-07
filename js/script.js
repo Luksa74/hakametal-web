@@ -16,7 +16,7 @@ mainNav.querySelectorAll('a').forEach((link) => {
 });
 
 const revealTargets = document.querySelectorAll(
-  '.service-card, .machine-row, .contact-card, .stat, .section-head, .kvalita-grid > *, .partner'
+  '.service-card, .machine-row, .contact-card, .stat, .section-head, .kvalita-grid > *, .partner, .gallery-item'
 );
 revealTargets.forEach((el) => el.classList.add('reveal'));
 
